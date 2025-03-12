@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y70RENDERING Visualization Studio</title>
+    <style>
+        body { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; background-color: #101010; color: #f0f0f0; }
+        header { background-color: #000; padding: 30px; text-align: center; position: sticky; top: 0; z-index: 10; }
+        nav a { color: #f0f0f0; padding: 10px 20px; text-decoration: none; display: inline-block; transition: color 0.3s; }
+        nav a:hover { color: #ff6f61; }
+        section { padding: 80px 20px; max-width: 1200px; margin: auto; text-align: center; }
+        h2 { color: #ff6f61; margin-bottom: 20px; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .gallery img { width: 100%; height: auto; border-radius: 15px; transition: transform 0.3s, box-shadow 0.3s; }
+        .gallery img:hover { transform: scale(1.05); box-shadow: 0 0 15px rgba(0,0,0,0.5); }
+        footer { background-color: #000; padding: 30px; text-align: center; margin-top: 40px; }
+        .contact-info { background-color: #1a1a1a; padding: 30px; border-radius: 15px; box-shadow: 0 0 15px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Y70RENDERING Visualization Studio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Y70RENDERING Visualization Studio</h2>
+        <p>We are a professional rendering studio with years of experience, collaborating with clients worldwide, including Dubai, Singapore, Shanghai, and the United States.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Our Portfolio</h2>
+        <div class="gallery">
+            <img src="your-image1.jpg" alt="Project 1">
+            <img src="your-image2.jpg" alt="Project 2">
+            <img src="your-image3.jpg" alt="Project 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>Email: y70rendering@foxmail.com</p>
+            <p>We offer high-quality renderings at affordable prices. Feel free to reach out for more information!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Y70RENDERING Visualization Studio</p>
+    </footer>
+</body>
+</html>
